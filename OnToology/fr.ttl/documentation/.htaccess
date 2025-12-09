@@ -7,11 +7,16 @@ AddType application/rdf+xml .rdf
 AddType application/rdf+xml .owl
 AddType text/turtle .ttl
 AddType application/n-triples .n3
-AddType application/ld+json .json
+AddType application/ld+json .jsonld
 # Rewrite engine setup
 RewriteEngine On
 #Change the path to the folder here
 RewriteBase /documentation 
+
+# Rewrite rule to serve JSON-LD content from the vocabulary URI if requested
+# Placed before HTML to support serving JSON-LD from a browser (e.g., JSON Playground)
+RewriteCond %{HTTP_ACCEPT} application/ld\+json
+RewriteRule ^$ ontology.jsonld [R=303,L]
 
 # Rewrite rule to serve HTML content from the vocabulary URI if requested
 RewriteCond %{HTTP_ACCEPT} !application/rdf\+xml.*(text/html|application/xhtml\+xml)

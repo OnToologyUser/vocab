@@ -1,0 +1,2282 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/dc/terms/creator"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Agent"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/dc/terms/modified"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/dc/terms/language"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://lexvo.org/ontology#Language"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/dc/terms/issued"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/dc/terms/modified"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/dc/terms/creator"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Agent"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/dc/terms/language"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://lexvo.org/ontology#Language"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/dc/terms/license"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/ns/odrl/2/Policy"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://purl.org/spar/fabio/Expression"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://w3id.org/fr/def/core#isReviewOf"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://purl.org/dc/terms/issued"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://lexvo.org/ontology#Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Language of the scientific contribution (paper, review, etc.)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Language"
+  } ]
+}, {
+  "@id" : "http://purl.org/NET/rdflicense/cc-by4.0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/dc/terms/Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/elements/1.1/creator"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/elements/1.1/date"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/dc/terms/LinguisticSystem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/elements/1.1/language"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/dc/terms/LicenseDocument"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/elements/1.1/rights"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://purl.org/dc/elements/1.1/date"
+  } ]
+}, {
+  "@id" : "http://purl.org/spar/bido/ScholarlyVenueManagementSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/spar/datacite/Identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Un identificador que identifica de forma única a una entidad - tal como una agencia de financiación, una persona y un recurso - que pertenece a un esquema particular, como los especificados por individuos de la clase datacite:IdentifierScheme."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "identificador"
+  } ]
+}, {
+  "@id" : "http://purl.org/spar/fabio/Endeavour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/spar/fabio/Expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/fabio/Endeavour"
+  } ]
+}, {
+  "@id" : "http://purl.org/spar/fabio/Reply",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/fabio/Work"
+  } ]
+}, {
+  "@id" : "http://purl.org/spar/fabio/Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/fabio/Work"
+  } ]
+}, {
+  "@id" : "http://purl.org/spar/fabio/Work",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/fabio/Endeavour"
+  } ]
+}, {
+  "@id" : "http://purl.org/spar/fabio/hasURL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/spar/fabio/Endeavour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/odrl/2/Policy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A non-empty group of Permissions and/or Prohibitions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Policy"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Agent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@id" : "https://w3id.org/people/idafensp"
+  }, {
+    "@id" : "https://w3id.org/people/mpoveda"
+  } ],
+  "http://purl.org/dc/elements/1.1/publisher" : [ {
+    "@id" : "http://www.oeg-upm.net/"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "FAIR reviews ontology"
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2017-09-01"
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2017-11-07"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "http://purl.org/NET/rdflicense/cc-by4.0"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2017-11-03"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "fr"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/fr/def/core#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This vocabulary represents scientific reviews. This model is used to annotate http://fairreviews.linkeddata.es/ data."
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://purl.org/spar/datacite/"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "0.1.0"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#0To10Continuos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "0 to 10 continuos"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#0To15Continuos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "0 to 15 continuos"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#0To5Continuos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "0 to 5 continuos"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#A-NA-WR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DiscreteRatingConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Discrete scale from Approved to Not Approved, including Aprproved With Reservations, "
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Approved to Not Approved"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-10"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-4"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-5"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Approved"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Approved"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APPWR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-MINREV"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-3"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-WACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-WACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Approved with reservations"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Approved with reservations"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#A-NA-WR-NAPP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SREJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SREJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Not approved"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Not approved"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#A-R-TS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DiscreteRatingConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Discrete scale from Accept to Reject, including pre-screening and two strikes rule"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Accept to Reject, Two Strikes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#A-R-TS-ACC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-10"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-4"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-5"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Accept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Accept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#A-R-TS-MAJREV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-5"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-BDL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Major revision"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Major revision"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#A-R-TS-MINREV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APPWR"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-3"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-WACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-WACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Minor revision"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Minor revision"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-NAPP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SREJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SREJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Reject"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Reject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJPS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Reject (Pre-Screening)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Reject (Pre-Screening)"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJTS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Reject (Two Strikes)"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Reject (Two Strikes)"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#ACL-1-5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DiscreteConfidenceConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Discrete scale from 1 to 5, used by Association for Computational Linguistics annual meetings"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Discrete 1 to 5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL-NULL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Not reviewer's area of expertise, or paper is very hard to understand. The evaluation is just an educated guess."
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "1 out of 5"
+  } ],
+  "https://w3id.org/fr/def/core#confidenceValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL-LOW"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Reviewers is willing to defend my evaluation, but it is fairly likely that he/she missed some details, didn't understand some central points, or can't be sure about the novelty of the work. "
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "2 out of 5"
+  } ],
+  "https://w3id.org/fr/def/core#confidenceValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL3"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL-MED"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Reviewer is pretty sure, but there's a chance he/she missed something. Although she/he has a good feel for this area in general, she/he did not carefully check the paper's details, e.g., the math, experimental design, or novelty. "
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "3 out of 5"
+  } ],
+  "https://w3id.org/fr/def/core#confidenceValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL4"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL-HIGH"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Reviewer is quite sure, tried to check the important points carefully. It's unlikely, though conceivable, that he/she missed something that should affect his/her ratings. "
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "4 out of 5"
+  } ],
+  "https://w3id.org/fr/def/core#confidenceValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL5"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL-EXP"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Reviewer is positive that the evaluation is correct, has read the paper very carefully and is familiar with related work. "
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "5 out of 5"
+  } ],
+  "https://w3id.org/fr/def/core#confidenceValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The set of values of a given confidence scale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Confidence concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#ConfidenceConceptScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A scale defining the confidence of a reviewer for a given topic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Confidence concept scheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#ConveningOrganization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A venue (e.g. conference, workshop), a expression collection (e.g. journal, special issue), or an individual agent (e.g. organization, researcher) collecting scientific contributions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Convening organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Agent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DiscreteRatingConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Discrete scale from 0 to 10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Discrete 0 to 10"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-10-0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-NAPP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SREJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SREJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "0 out of 10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "0 out of 10"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "0"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-10-1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "1 out of 10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "1 out of 10"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-10-10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-5"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "10 out of 10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "10 out of 10"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "10"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-10-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "2 out of 10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "2 out of 10"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-10-3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "3 out of 10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "3 out of 10"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-10-4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "4 out of 10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "4 out of 10"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-10-5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-MAJREV"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-BDL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "5 out of 10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "5 out of 10"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-10-6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "6 out of 10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "6 out of 10"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "6"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-10-7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "7 out of 10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "7 out of 10"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "7"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-10-8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "8 out of 10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "8 out of 10"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "8"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-10-9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "9 out of 10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "9 out of 10"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "9"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DiscreteRatingConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Discrete scale from 0 to 5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Discrete 0 to 5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-5-0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-NAPP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SREJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SREJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "0 out of 5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "0 out of 5"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "0"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-5-1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-NAPP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-REJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "1 out of 5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "1 out of 5"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-5-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-WREJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-WREJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "2 out of 5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "2 out of 5"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-5-3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APPWR"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-MINREV"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-WACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-WACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "3 out of 5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "3 out of 5"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-5-4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-ACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "4 out of 5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "4 out of 5"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-0-5-5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-10"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "5 out of 5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "5 out of 5"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DiscreteRatingConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Discrete scale from -2 to 2, including 0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Discrete -2 to 2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-MAJREV"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-5"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-BDL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "0 on a [-2,2] scale"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "0 on a [-2,2] scale"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "0"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-NAPP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-REJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "-1 on a [-2,2] scale"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "-1 on a [-2,2] scale"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "-1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-NAPP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SREJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SREJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "-2 on a [-2,2] scale"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "-2 on a [-2,2] scale"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "-2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-4"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-ACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "1 on a [-2,2] scale"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "1 on a [-2,2] scale"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-10"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-5"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "2 on a [-2,2] scale"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "2 on a [-2,2] scale"
+  } ],
+  "https://w3id.org/fr/def/core#ratingValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DiscreteConfidenceConceptScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A discrete scale defining the confidence of a reviewer for a given topic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Discrete confidence concept scheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConceptScheme"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#DiscreteRatingConceptScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A discrete scale defining the rating given by a reviewer for a specific scientific contribution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Discrete rating concept scheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConceptScheme"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#EX-NULL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DiscreteConfidenceConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Discrete scale from Expert to Null, also representend in an scale from 4 to 0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Expert to Null"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#EX-NULL-EXP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL5"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL-EXP"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Expert"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Expert"
+  } ],
+  "https://w3id.org/fr/def/core#confidenceValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#EX-NULL-HIGH",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL4"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL-HIGH"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "High"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "High"
+  } ],
+  "https://w3id.org/fr/def/core#confidenceValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#EX-NULL-LOW",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL-LOW"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Low"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Low"
+  } ],
+  "https://w3id.org/fr/def/core#confidenceValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#EX-NULL-MED",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL3"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL-MED"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Medium"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Medium"
+  } ],
+  "https://w3id.org/fr/def/core#confidenceValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#EX-NULL-NULL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ACL-1-5-ACL1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL-NULL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Null"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#EX-NULL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Null"
+  } ],
+  "https://w3id.org/fr/def/core#confidenceValue" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "0"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#RatingConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The set of values of a given rating scale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rating concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#RatingConceptScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A scale defining the rating given by a reviewer for a specific scientific contribution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rating concept scheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#Reply",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A reply to a review or another endeavour."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Reply"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/fabio/Reply"
+  }, {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A review of a scientific contribution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/fabio/Review"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  }, {
+    "@id" : "_:genid9"
+  }, {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-BL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DiscreteRatingConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Discrete scale from Strong Reject to Strong Accept, including Bordeline"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "St. Reject to St. Accept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-ACC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-4"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-ACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Accept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Accept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-BDL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-MAJREV"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-5"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-0"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Borderline"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Borderline"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-REJ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-NAPP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-REJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Reject"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Reject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SACC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-10"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-5"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Strong Accept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Strong Accept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SREJ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-NAPP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SREJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Strong Reject"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Strong Reject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-WACC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APPWR"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-MINREV"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-3"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-WACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Weak Accept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Weak Accept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-WREJ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-WREJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Weak Reject"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Weak Reject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-NB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DiscreteRatingConceptScheme"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Discrete scale from Strong Reject to Strong Accept, excluding Bordeline"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "St. Reject to St. Accept, without Borderline"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-ACC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-10"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-4"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-ACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Accept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Accept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-REJ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-NAPP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG1"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-REJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Reject"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Reject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SACC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-ACC"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-10"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-5"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-POS2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Strong Accept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Strong Accept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-SREJ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-NAPP"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-REJ"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-10-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-0"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-N2-P2-NEG2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-SREJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Strong Reject"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Strong Reject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-WACC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#A-NA-WR-APPWR"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#A-R-TS-MINREV"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-3"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-WACC"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Weak Accept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Weak Accept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#SA-SR-NB-WREJ",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://w3id.org/fr/def/core#DIS-0-5-2"
+  }, {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-BL-WREJ"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : [ {
+    "@language" : "en",
+    "@value" : "Weak Reject"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+    "@id" : "https://w3id.org/fr/def/core#SA-SR-NB"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@value" : "Weak Reject"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#TrackingSystem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The platform where the review process takes place."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tracking system"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.org/spar/bido/ScholarlyVenueManagementSystem"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#confidenceValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Confidence value of expertise in the review topic given by the reviwer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "confidence value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#content",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Content of the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/spar/fabio/Work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "content"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#hasRating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relation between a review and a given rating assigned by a reviewer."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fr/def/core#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#hasReview",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relation between a scientific contribution and the reviews issued for it."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/spar/fabio/Expression"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fr/def/core#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/fr/def/core#isReviewOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#hasReviewerConfidence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Relation between a review the confidence set by the author about the review topic. As the review can be written only by one author the confidence is assumed to be for such author about the given paper without need of creating a new class involving the three actors in a n-ary alike solution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fr/def/core#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has reviewer confidence"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConfidenceConcept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#hasSubReviewer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fr/def/core#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The relation between a review and agents that have contributed to the overall review as sub-reviwers."
+  }, {
+    "@language" : "en",
+    "@value" : "has sub-reviewer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Agent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#isReplyTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relation between a given endeavour and the endeavour that it is replying to. For example, the relation between a reply and a given review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://purl.org/spar/fabio/Endeavour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is reply to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/spar/fabio/Endeavour"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#isReviewOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relation between a review and the scientific contribution that is subject of the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fr/def/core#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is review of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/spar/fabio/Expression"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#issuedAt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relation between a review and the tracking or scholarly venue management system where the reviewing process took place."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fr/def/core#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "issued at"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fr/def/core#TrackingSystem"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#issuedFor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The realation between a review and the entity (e.g. conference, journal) that it was issued for (usually the one that requested the review)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fr/def/core#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "issued for"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/fr/def/core#ConveningOrganization"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#ratingValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Numerical value of the rating given to a review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fr/def/core#RatingConcept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "rating value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "https://w3id.org/fr/def/core#releasedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relation between the review and the agent publishing it. It might be the the author of the review or conference or journal to which the scientific resource was submitted to."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/fr/def/core#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "released by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/Agent"
+  } ]
+} ]
